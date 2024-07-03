@@ -1,0 +1,196 @@
+*{
+    margin: 0;
+    padding: 0;
+    
+    
+}
+.navigation{
+    background-image: radial-gradient(dodgerblue,rgb(27, 88, 149));
+    display: flex;
+    justify-content:space-between;
+    text-align: center;
+    padding: 13px;
+}
+.span{
+    color: yellow;
+    font-size: 30px;
+}
+.navigation>ul{
+    display: flex;
+    margin-right: 100px;
+}
+.navigation>ul>li{
+    list-style: none;
+    
+    padding:5px 0px;
+    
+    
+    
+
+}
+.navigation>ul>li>a{
+    color: aliceblue;
+    text-decoration: none;
+    font-size: 18px;
+    border: 1px solid rgb(231, 236, 237);
+    padding: 15px 30px ;
+    
+    transition: 0.5s;
+   
+    
+    
+}
+.logo>h2{
+    color: white;
+    margin-left: 50px;
+    
+   
+}
+
+.navigation>ul>li:hover>a{
+    background-color: rgb(20, 87, 174);
+    transition: 1s;
+    
+    
+}
+/* Dropdown Menu Bar*/
+
+.dropdownmenu{
+    visibility: hidden;
+    opacity: 0;
+    margin-top: 25px;
+    padding: 0;
+    height: auto;
+    position: absolute;
+    width: 250px;
+    transition: 0.5s;
+    transform: scale(0);
+    
+
+}
+ .dropdownmenu > li{
+    list-style: none;
+    padding: 10px 0;
+    background-color: dodgerblue;
+    border: 1px solid white;
+    border-radius: 10px;
+    
+}
+.dropdownmenu>li>a{
+    text-decoration: none;
+    color: aliceblue;
+  
+}
+.dropdownmenu>li:hover{
+    background-color: blue;
+    opacity: 1;
+    display: list-item;
+    
+}
+.navigation>ul>li:hover>.dropdownmenu{
+    opacity: 1;
+    transform: scale(1);
+    visibility: visible;
+   
+}
+/* Body area start here  */
+.heroarea{
+    margin-top: 0;
+    padding: 0;
+    background-image: url(webheader.jpg);
+    height: 90vh;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    text-align: center;
+}
+.hero1{
+    padding-top: 60px;
+}
+.hero1>h4{
+    padding: 10px;
+    font-size: 30px;
+    margin-bottom: 20px;
+}
+
+
+
+.para{
+    background-color: rgba(24, 118, 212, 0.685);
+    color: white;
+    width: 600px;
+    padding: 10px;
+    border-radius: 10px;
+    margin: auto;
+    font-size: 30px ;
+    margin-bottom: 20px;
+}
+.hero1>h5{
+    margin-bottom: 10px;
+    font-size: 20px;
+}
+.youtube>i{
+    
+
+}
+.icon>a>i{
+    width: 50px;
+    height: 50px;
+    color: aliceblue;
+    align-content: center;
+    font-size: 30px;
+    border: 1px solid rgb(6, 79, 34);
+    border-radius: 50%;
+    margin-bottom: 10px;
+    background-color:rgba(72, 15, 217, 0.644);
+    transition: 1s;
+    
+   
+    
+}
+.icon>a>i:hover{
+    background-color: rgba(0, 0, 0, 0.038);
+    transform: rotate(360deg);
+}
+.button{
+    color: aliceblue;
+    font-size: 20px;
+    padding: 10px 20px;
+    margin:0 40px;
+    border: 2px solid rgb(19, 175, 63);
+    border-radius: 10px;
+    background-color: rgba(49, 18, 134, 0.538);
+}
+.button:hover{
+    background-color: rgba(8, 126, 53, 0.492);
+    transition: 1s;
+    cursor: pointer;
+}
+/* Main area 1st-section start here */
+
+
+.firstsection{
+    width: 1000px;
+    display: flex;
+    text-align: center;
+    margin: auto;
+    justify-content: space-between;
+    padding: 100px 0;
+    
+
+}
+.mainarea{
+    width: 300px;
+    padding: 30px 10px;
+    transition: 0.5s;
+}
+.mainarea>i{
+    font-size: 50px;
+    margin-bottom: 10px;
+}
+.mainarea>h2{
+    margin-bottom: 10px;
+}
+.mainarea:hover{
+    box-shadow: 3px 3px 10px gray;
+}
